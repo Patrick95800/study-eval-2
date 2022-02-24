@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="description" content="Jouez à Mario VS Luigi Dice Battle."/>
+  <title>Mario VS Luigi | Dice Battle</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+  <!-- CSS personnalisée -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- Menu principal -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">
+      <img src="images/mario_dice_luigi.png" width="50" height="50" alt="logo" />
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="rules.html">Règles du jeu</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- Contenu principal -->
+  <div class="container">
+    <div class="row mt-5 mb-5">
+      <div class="col-md-12">
+        <h1 class="display-6 mb-5 text-center">Comment jouer à Mario VS Luigi Dice Battle ?</h1>
+        <div class="row mt-5 mb-5">
+          <div class="col-md-12">
+            <!-- Image et description -->
+            <img src="images/mario_bros_3_map.png" class="img-responsive card-img-top" alt="mrio_vs_luigi_map"/>
+            <p class="text-center">Depuis des années Mario et Luigi sont en competition. Avec Mario VS Luigi Dice Battle vous devrez usez de stratégie pour remporter la partie.</p>
+            <p class="text-center">À chaque tour, le joueur a son ROUND initialisé à 0 et peut lancer un dé autant de fois qu'il le souhaite. Le résultat d’un lancer est ajouté au ROUND.</p>
+            <p class="text-center">Lors de son tour, le joueur peut décider à tout moment de:</p>
+            <p class="text-center">  - Cliquer sur l’option “Gerder points”, qui permet d’envoyer les points du ROUND vers le GLOBAL. Ce sera alors le tour de l’autre joueur.</p>
+            <p class="text-center">  - Lancer le dé. S’il obtient un 1, son score ROUND est perdu et c’est la fin de son tour.</p>
+            <p class="text-center">Le premier joueur qui atteint les 100 points sur global gagne le jeu.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Footer -->
+  <footer class="bg-light text-center text-lg-start">
+    <div class="text-center p-3">
+      Mario VS Luigi - Dice Battle
+    </div>
+  </footer>
+</body>
+</html>

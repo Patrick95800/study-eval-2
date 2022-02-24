@@ -1,0 +1,19 @@
+/* font telechargée */
+@font-face {
+    font-family: 'Super Mario 256';
+    src: url("../font/SuperMario256.ttf"); 
+} 
+/* font pour le body */
+body {
+    font-family: 'Lato', sans-serif;
+}
+/* affichage des score avec font mario */
+.font-mario {
+    font-family: 'Super Mario 256'; 
+    font-size: 2em;
+}
+/* background mario */
+.custom-background {
+    background-image: url('../images/wallpaper.png');
+    border-radius: 5px;
+  }
